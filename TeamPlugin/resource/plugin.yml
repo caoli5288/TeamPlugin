@@ -1,0 +1,25 @@
+main: com.mengcraft.team.TeamPlugin
+name: TeamPlugin
+version: 0.3.1
+description: This plugin provides a team function.
+author: mengcraft.com
+website: http://www.mengcraft.com/
+
+commands:
+  team:
+    description: Basic command.
+    permission: team.use
+  tm:
+    description: Team chat command.
+    permission: team.use
+
+permissions:
+  team.use:
+    description: Default permission.
+    default: true
+  team.create:
+    description: Create permission.
+    default: op
+  team.admin:
+    default: op
+    description: Admin permission.

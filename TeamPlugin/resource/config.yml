@@ -1,0 +1,13 @@
+config:
+  team:
+    overRideSpawnCommand: true
+    growhealth: true
+    leastexp: 24
+    size: 4
+    growperlevel: 2
+    effectnear: 16
+    skillcooldown: 90
+
+black-world:
+- world_nether
+- world_the_end

@@ -1,0 +1,6 @@
+name: TeamHunter
+main: com.mengcraft.team.THMain
+version: 0.1.1
+commands:
+  team-hunter:
+    permission: team.admin
